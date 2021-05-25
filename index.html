@@ -1,0 +1,582 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/logo3.png">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!--load all styles -->
+                <script type="text/javascript" src="js/jquery.js"></script>
+
+
+    <script type="text/javascript" src="js/jscript.js"></script>
+
+
+
+    <title>Vuollet</title>
+  </head>
+  <body>
+
+
+    <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="navigation">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt=""> Vuollet</a>
+                                <button class="navbar-toggler" id="menu-slide" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                                                                
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#" data-scroll-nav="0">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="2">Price</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="3">App</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="4"> Listing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="5">Support</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="6">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+
+                                           <div class="signin-btn">
+                                    <a class="btn btn-primary" href="./signin.html"  data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</a>
+                                </div>
+                                       </li>
+
+                                        
+                                    </ul>
+                                </div>
+
+
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class=" modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+             <a class="navbar-brand" href="index.html"><img style="max-width: 55px;" src="img/logo2.png" alt=""> Vuollet</a>
+             <br>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+<div class="password">
+  
+  <input type="password" class="form-control pass" id="password_input" placeholder="password">
+            <i class="far fa-eye" id="togglePassword"></i>
+</div>
+    
+
+
+ 
+</div>
+<div class="new_user"> 
+  <a href="">Forget password </a> /
+  <a href="">New User</a>
+</div>
+
+
+
+              </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary text-center">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+        <section class="intro">
+          <div class="container">
+
+            <div class="row intro-container"> 
+              <div class="col-md-6 col-xs-12 ">   
+
+              <div class="intro-text">
+                   <h1>Start use <span>Vuollet</span></h1>
+                   <h3>The safe place for your coins.</h3>
+                   <h4>the easiest place to buy and sell cryptocurrency.
+                    Sign up and get started today.</h4>
+                   <a href="">Let's start <i class="fas fa-arrow-right"></i> </a>
+
+                   </div>
+                 </div>
+
+
+                 <div class="col-md-6 col-xs-12 mocup">   
+                        <svg width="500" height="600" viewBox="0 0 680 956" fill="none" xmlns="http://www.w3.org/2000/svg" class="HeroVariant__StyledMobileImage-sc-1o7093z-6 kGJGpi"><circle cx="340" cy="428" r="340" fill="#F1F5FE"></circle><g filter="url(#prefix__filter0_dd)"><path d="M481 10H198c-32.032 0-58 25.968-58 58v720c0 32.032 25.968 58 58 58h283c32.032 0 58-25.968 58-58V68c0-32.032-25.968-58-58-58z" fill="url(#prefix__paint0_linear)"></path><path d="M472.489 22H206.511C176.406 22 152 47.222 152 78.335v699.33C152 808.778 176.406 834 206.511 834h265.978C502.594 834 527 808.778 527 777.665V78.335C527 47.222 502.594 22 472.489 22z" fill="url(#prefix__img1)"></path><g filter="url(#prefix__filter1_f)"><path d="M213.5 15.5c-38.883 0-67.5 23.943-67.5 61.343V783.5c0 20.5 11.5 57 65.5 57" stroke="url(#prefix__paint1_radial)"></path></g><g filter="url(#prefix__filter2_f)"><path d="M465.5 15c38.883 0 67.5 23.943 67.5 61.343V783c0 20.5-11.5 57-65.5 57" stroke="url(#prefix__paint2_radial)"></path></g></g><defs><filter id="prefix__filter0_dd" x="48" y="0" width="519" height="956" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dx="-32" dy="50"></feOffset><feGaussianBlur stdDeviation="30"></feGaussianBlur><feColorMatrix values="0 0 0 0 0.321569 0 0 0 0 0.321569 0 0 0 0 0.321569 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dy="15"></feOffset><feGaussianBlur stdDeviation="7.5"></feGaussianBlur><feColorMatrix values="0 0 0 0 0.320833 0 0 0 0 0.320833 0 0 0 0 0.320833 0 0 0 0.1 0"></feColorMatrix><feBlend in2="effect1_dropShadow" result="effect2_dropShadow"></feBlend><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"></feBlend></filter><filter id="prefix__filter1_f" x="143.5" y="13" width="72" height="830" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur"></feGaussianBlur></filter><filter id="prefix__filter2_f" x="463.5" y="12.5" width="72" height="830" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur"></feGaussianBlur></filter><radialGradient id="prefix__paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(286.75008 212.24974 -632.54832 854.57482 179.75 390.25)"><stop stop-opacity="0.2"></stop><stop offset="1" stop-opacity="0"></stop></radialGradient><radialGradient id="prefix__paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 756.5 -2254.52 0 499 131)"><stop stop-opacity="0"></stop><stop offset="0.453" stop-opacity="0.2"></stop><stop offset="1" stop-opacity="0"></stop></radialGradient><linearGradient id="prefix__paint0_linear" x1="539" y1="654" x2="-169.5" y2="799.5" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F2F3"></stop><stop offset="0.64" stop-color="#CACED2"></stop></linearGradient><pattern id="prefix__img1" patternUnits="objectBoundingBox" width="1" height="1" viewBox="0 0 375 812"><image href="https://assets.coinbase.com/assets/portfolio.352f1ebd5622fb93068757ca3a33b88b.svg" width="375" height="812"></image></pattern></defs></svg>                
+                      </div></div>
+           
+          </div>
+
+
+        </section>
+
+
+        <div class="market" >
+          <h2> Most Popular</h2>
+            <div class="container">
+              <div class="row coin_details_head">
+
+
+                <div class="col-md-1"><h5>#</h5></div>
+                <div class="col-md-3"><h5>Coin</h5></div>
+               <div class="col-md-3"><h5>Price</h5></div>
+              <div class="col-md-2"><h5>Change</h5></div>
+               <div class="col-md-2"><h5>Chart</h5></div>
+               <div class="col-md-1"><h5>Trade</h5></div>
+
+
+
+
+                
+              </div>
+
+
+              <div class="row coin_details">
+
+
+                <div class="col-md-1"><h5>1</h5></div>
+                 <div class="col-md-1 col-sm-1 col-xs-1"><img src="img/bitcoin.png"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><h5>Bitcoin <span>BTC</span></h5> </div>
+               <div class="col-md-3 col-sm-4 col-xs-4"><h5>USD 62,548.2254</h5></div>
+              <div class="col-md-2 col-sm-4 col-xs-5"><h5>+2.05%</h5></div>
+               <div class="col-md-2 col-xs-5"><div class="chart">
+                <svg ><g id="SvgjsG1678" class="apexcharts-inner apexcharts-graphical" ><g id="SvgjsG1702" class="apexcharts-grid"><line id="SvgjsLine1704" x1="0" y1="35" x2="226" y2="35" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1703" x1="0" y1="1" x2="0" y2="35" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1687" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1688" class="apexcharts-series" seriesname="Desktops" data:longestseries="true" rel="1" data:realindex="0"><path id="apexcharts-line-0" d="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" fill="none" fill-opacity="1" stroke="rgba(28,117,188,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskbzo9ga0q)" pathto="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" pathfrom="M -1 35L -1 35L 13.294117647058822 35L 26.588235294117645 35L 39.88235294117647 35L 53.17647058823529 35L 66.47058823529412 35L 79.76470588235294 35L 93.05882352941175 35L 106.35294117647058 35L 119.6470588235294 35L 132.94117647058823 35L 146.23529411764704 35L 159.52941176470588 35L 172.8235294117647 35L 186.1176470588235 35L 199.41176470588235 35L 212.70588235294116 35L 225.99999999999997 35"></path></g></g></g></svg>
+                 
+               </div> </div>
+              <div class="col-md-1 col-xs-12 col-sm-12 text-center"><a href="#" class="btn buy">Buy</a></div>
+
+
+
+
+                
+              </div>
+
+                 <div class="row coin_details">
+
+
+                <div class="col-md-1"><h5>2</h5></div>
+                 <div class="col-md-1 col-sm-1 col-xs-1"><img src="img/bitcoin.png"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><h5>Bitcoin <span>BTC</span></h5> </div>
+               <div class="col-md-3 col-sm-4 col-xs-4"><h5>USD 62,548.2254</h5></div>
+              <div class="col-md-2 col-sm-4 col-xs-5"><h5>+2.05%</h5></div>
+               <div class="col-md-2 col-xs-5"><div class="chart">
+                <svg ><g id="SvgjsG1678" class="apexcharts-inner apexcharts-graphical" ><g id="SvgjsG1702" class="apexcharts-grid"><line id="SvgjsLine1704" x1="0" y1="35" x2="226" y2="35" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1703" x1="0" y1="1" x2="0" y2="35" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1687" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1688" class="apexcharts-series" seriesname="Desktops" data:longestseries="true" rel="1" data:realindex="0"><path id="apexcharts-line-0" d="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" fill="none" fill-opacity="1" stroke="rgba(28,117,188,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskbzo9ga0q)" pathto="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" pathfrom="M -1 35L -1 35L 13.294117647058822 35L 26.588235294117645 35L 39.88235294117647 35L 53.17647058823529 35L 66.47058823529412 35L 79.76470588235294 35L 93.05882352941175 35L 106.35294117647058 35L 119.6470588235294 35L 132.94117647058823 35L 146.23529411764704 35L 159.52941176470588 35L 172.8235294117647 35L 186.1176470588235 35L 199.41176470588235 35L 212.70588235294116 35L 225.99999999999997 35"></path></g></g></g></svg>
+                 
+               </div> </div>
+              <div class="col-md-1 col-xs-12 col-sm-12 text-center"><a href="#" class="btn buy">Buy</a></div>
+
+
+
+
+                
+              </div>
+
+           <div class="row coin_details">
+
+
+                <div class="col-md-1"><h5>3</h5></div>
+                 <div class="col-md-1 col-sm-1 col-xs-1"><img src="img/bitcoin.png"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><h5>Bitcoin <span>BTC</span></h5> </div>
+               <div class="col-md-3 col-sm-4 col-xs-4"><h5>USD 62,548.2254</h5></div>
+              <div class="col-md-2 col-sm-4 col-xs-5"><h5>+2.05%</h5></div>
+               <div class="col-md-2 col-xs-5"><div class="chart">
+                <svg ><g id="SvgjsG1678" class="apexcharts-inner apexcharts-graphical" ><g id="SvgjsG1702" class="apexcharts-grid"><line id="SvgjsLine1704" x1="0" y1="35" x2="226" y2="35" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1703" x1="0" y1="1" x2="0" y2="35" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1687" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1688" class="apexcharts-series" seriesname="Desktops" data:longestseries="true" rel="1" data:realindex="0"><path id="apexcharts-line-0" d="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" fill="none" fill-opacity="1" stroke="rgba(28,117,188,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskbzo9ga0q)" pathto="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" pathfrom="M -1 35L -1 35L 13.294117647058822 35L 26.588235294117645 35L 39.88235294117647 35L 53.17647058823529 35L 66.47058823529412 35L 79.76470588235294 35L 93.05882352941175 35L 106.35294117647058 35L 119.6470588235294 35L 132.94117647058823 35L 146.23529411764704 35L 159.52941176470588 35L 172.8235294117647 35L 186.1176470588235 35L 199.41176470588235 35L 212.70588235294116 35L 225.99999999999997 35"></path></g></g></g></svg>
+                 
+               </div> </div>
+              <div class="col-md-1 col-xs-12 col-sm-12 text-center"><a href="#" class="btn buy">Buy</a></div>
+
+
+
+
+                
+              </div>
+
+           <div class="row coin_details">
+
+
+                <div class="col-md-1"><h5>4</h5></div>
+                 <div class="col-md-1 col-sm-1 col-xs-1"><img src="img/bitcoin.png"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><h5>Bitcoin <span>BTC</span></h5> </div>
+               <div class="col-md-3 col-sm-4 col-xs-4"><h5>USD 62,548.2254</h5></div>
+              <div class="col-md-2 col-sm-4 col-xs-5"><h5>+2.05%</h5></div>
+               <div class="col-md-2 col-xs-5"><div class="chart">
+                <svg ><g id="SvgjsG1678" class="apexcharts-inner apexcharts-graphical" ><g id="SvgjsG1702" class="apexcharts-grid"><line id="SvgjsLine1704" x1="0" y1="35" x2="226" y2="35" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1703" x1="0" y1="1" x2="0" y2="35" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1687" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1688" class="apexcharts-series" seriesname="Desktops" data:longestseries="true" rel="1" data:realindex="0"><path id="apexcharts-line-0" d="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" fill="none" fill-opacity="1" stroke="rgba(28,117,188,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskbzo9ga0q)" pathto="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" pathfrom="M -1 35L -1 35L 13.294117647058822 35L 26.588235294117645 35L 39.88235294117647 35L 53.17647058823529 35L 66.47058823529412 35L 79.76470588235294 35L 93.05882352941175 35L 106.35294117647058 35L 119.6470588235294 35L 132.94117647058823 35L 146.23529411764704 35L 159.52941176470588 35L 172.8235294117647 35L 186.1176470588235 35L 199.41176470588235 35L 212.70588235294116 35L 225.99999999999997 35"></path></g></g></g></svg>
+                 
+               </div> </div>
+              <div class="col-md-1 col-xs-12 col-sm-12 text-center"><a href="#" class="btn buy">Buy</a></div>
+
+
+
+
+                
+              </div>
+           <div class="row coin_details">
+
+
+                <div class="col-md-1"><h5>5</h5></div>
+                 <div class="col-md-1 col-sm-1 col-xs-1"><img src="img/bitcoin.png"></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><h5>Bitcoin <span>BTC</span></h5> </div>
+               <div class="col-md-3 col-sm-4 col-xs-4"><h5>USD 62,548.2254</h5></div>
+              <div class="col-md-2 col-sm-4 col-xs-5"><h5>+2.05%</h5></div>
+               <div class="col-md-2 col-xs-5"><div class="chart">
+                <svg ><g id="SvgjsG1678" class="apexcharts-inner apexcharts-graphical" ><g id="SvgjsG1702" class="apexcharts-grid"><line id="SvgjsLine1704" x1="0" y1="35" x2="226" y2="35" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1703" x1="0" y1="1" x2="0" y2="35" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1687" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1688" class="apexcharts-series" seriesname="Desktops" data:longestseries="true" rel="1" data:realindex="0"><path id="apexcharts-line-0" d="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" fill="none" fill-opacity="1" stroke="rgba(28,117,188,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskbzo9ga0q)" pathto="M 0 31.5C 4.652941176470588 31.5 8.641176470588235 20.65 13.294117647058822 20.65C 17.94705882352941 20.65 21.935294117647057 22.75 26.588235294117645 22.75C 31.241176470588233 22.75 35.22941176470588 17.150000000000002 39.88235294117647 17.150000000000002C 44.535294117647055 17.150000000000002 48.523529411764706 17.85 53.17647058823529 17.85C 57.82941176470588 17.85 61.817647058823525 13.3 66.47058823529412 13.3C 71.12352941176471 13.3 75.11176470588235 10.850000000000001 79.76470588235294 10.850000000000001C 84.41764705882352 10.850000000000001 88.40588235294118 3.150000000000002 93.05882352941175 3.150000000000002C 97.71176470588235 3.150000000000002 101.69999999999999 7 106.35294117647058 7C 111.00588235294117 7 114.99411764705881 31.5 119.6470588235294 31.5C 124.3 31.5 128.28823529411764 20.65 132.94117647058823 20.65C 137.59411764705882 20.65 141.58235294117645 22.75 146.23529411764704 22.75C 150.88823529411764 22.75 154.8764705882353 17.150000000000002 159.52941176470588 17.150000000000002C 164.18235294117648 17.150000000000002 168.1705882352941 17.85 172.8235294117647 17.85C 177.4764705882353 17.85 181.46470588235292 13.3 186.1176470588235 13.3C 190.7705882352941 13.3 194.75882352941176 10.850000000000001 199.41176470588235 10.850000000000001C 204.06470588235294 10.850000000000001 208.05294117647057 3.150000000000002 212.70588235294116 3.150000000000002C 217.35882352941175 3.150000000000002 221.34705882352938 7 225.99999999999997 7" pathfrom="M -1 35L -1 35L 13.294117647058822 35L 26.588235294117645 35L 39.88235294117647 35L 53.17647058823529 35L 66.47058823529412 35L 79.76470588235294 35L 93.05882352941175 35L 106.35294117647058 35L 119.6470588235294 35L 132.94117647058823 35L 146.23529411764704 35L 159.52941176470588 35L 172.8235294117647 35L 186.1176470588235 35L 199.41176470588235 35L 212.70588235294116 35L 225.99999999999997 35"></path></g></g></g></svg>
+                 
+               </div> </div>
+              <div class="col-md-1 col-xs-12 col-sm-12 text-center"><a href="#" class="btn buy">Buy</a></div>
+
+
+
+
+                
+              </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="advantages">
+
+          <h2>Easy Access to Cryptocurrencies </h2>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 "> 
+                <div class="icon_walet"><i class="fas fa-user-plus"></i></div>
+                <div><h4>Create an account </h4></div>
+              </div>
+
+               <div class="col-md-4"> 
+                <div class="icon_walet"><i class="fas fa-university"></i></div>
+                <div><h4>Link your bank account </h4></div>
+              </div>
+
+               <div class="col-md-4"> 
+                <div class="icon_walet"><i class="fas fa-hand-holding-usd"></i></div>
+                <div><h4>Start buying & selling </h4></div>
+              </div>
+              
+            </div>
+            
+
+          </div>
+
+        </div>
+
+        <div class="features">
+
+          <h2> <span style="color: #0d6efd;">Vuollet</span> features that make it the best place to start trading</h2>
+          <div class="container">
+            <div class="row">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <ul>
+                <li class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 media"><i class="fas fa-chart-bar"></i></div>
+                  <div class="col-md-7 col-sm-7 col-xs-12">
+                    
+                    <h3>Manage your portfolio</h3>
+                  <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
+                  </div>
+                  
+                </li>
+
+                <li class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 media"><i class="far fa-calendar-check"></i></div>
+                  <div class="col-md-7  col-sm-7 col-xs-12" >
+                    
+                    <h3>Recurring buys</h3>
+                  <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly.</p>
+                  </div>
+                  
+                </li>
+                <li class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 media"><i class="fas fa-lock"></i></div>
+                  <div class="col-md-7 col-sm-7 col-xs-12">
+                    
+                    <h3>Vault protection</h3>
+                  <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
+                  </div>
+                  
+                </li>
+
+                  <li class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 media"><i class="fas fa-mobile-alt"></i></div>
+                  <div class="col-md-7 col-sm-7 col-xs-12">
+                    
+                    <h3>Mobile apps</h3>
+                  <p>Stay on top of the markets with the Tradio app for Android or iOS.</p>
+                  </div>
+                  
+                </li>
+                 <li class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12 media"><i class="far fa-credit-card"></i></div>
+                  <div class="col-md-7 col-sm-7 col-xs-12">
+                    
+                    <h3>Buy Crypto</h3>
+                  <p>Buy crypto currency using your Credit .</p>
+                  </div>
+                  
+                </li>
+              </ul>
+              
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <img src="img/mockup2.jpg">
+              
+
+
+            </div>
+            </div>
+
+          </div>
+          
+
+        </div>
+
+
+        <div class="trust">
+
+          <h2>Trusted by Our Partners & Investors</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icon-secure">
+                  <img src="img/protect.svg">
+                </div>
+                <h4>Secure storage</h4>
+                <p>We store the vast majority of the digital assets in secure offline storage.</p>
+                
+                
+              </div>
+
+
+              <div class="col-md-4">
+                <div class="icon-secure">
+                  <img src="img/cyber.svg">
+                </div>
+
+                 <h4>Protected by insurance</h4>
+                <p>Cryptocurrency stored on our servers is covered by our insurance policy.</p>
+                
+                
+              </div>
+
+
+              <div class="col-md-4">
+                <div class="icon-secure">
+                  <img src="img/finance.svg">
+                </div>
+
+                 <h4>Industry best practices</h4>
+                <p>Vuollet supports a variety of the most popular digital currencies.</p>
+                
+                
+              </div>
+            </div>
+            
+
+          </div>
+
+        </div>
+
+
+
+        <div class="app">
+          <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+              <h2>The secure app to store crypto yourself</h2>
+              <ul>
+                <li><i class="fas fa-check"></i> All your digital assets in one place</li>
+                <li><i class="fas fa-check"></i> Use Decentralized Apps</li>
+                <li><i class="fas fa-check"></i> Pay friends, not addresses</li>
+              </ul>
+
+              <div class="dawnload">
+                 <a href="" class="btn btn-primary"><img src="img/android.svg"></a>
+                 <a href="" class="btn btn-primary"><img src="img/apple.svg"></a>
+           
+
+
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <img src="img/home_security.png">
+            </div>
+            
+          </div>
+          </div>
+
+        </div>
+        <div class="touch">
+
+          <h2>Get in touch</h2>
+          <div class="container">
+
+            <form class="">
+
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                  <a type="submit" class="btn btn-primary ">Send</a>
+
+
+
+              
+            </form>
+            
+          </div>
+        </div>
+
+
+        <footer>
+
+          <div class="foote">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12 fot_logo">
+                <a href=""><img src="img/logo3.png">Vuollet</a>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                 <li> <a href=""><i class="fab fa-telegram-plane"></i></a></li>
+
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+
+                  <li><a href=""><i class="fab fa-github"></i></a></li>
+
+                </ul>
+
+
+                
+              </div>
+
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3><span>Co</span>mpany</h3>
+                <ul>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Career</a> </li>
+                  <li><a href="">Blog</a> </li>
+                 <li><a href="">Our Partner</a> </li>
+
+
+                </ul>
+                
+
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3><span>Su</span>pport</h3>
+                <ul>
+                  <li><a href="">Ticket</a></li>
+                  <li><a href="">FAQ</a> </li>
+                  <li><a href="">Helpdesk</a> </li>
+
+
+                </ul>
+                
+
+              </div>
+
+
+
+              <div class="col-md-2 col-sm-6 col-xs-12">
+                <h3><span>In</span>dividuals</h3>
+                <ul>
+                  <li><a href="">Buy & sell</a></li>
+                  <li><a href="">Wallet</a> </li>
+                  <li><a href="">Card</a> </li>
+
+
+                </ul>
+                
+
+              </div>
+
+
+            </div>
+          </div>
+          </div>
+
+          <div class="copright">© Copyright 2021 Vuollet I All Rights Reserved</div>
+
+
+        </footer>
+
+
+
+
+
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="js/jquery.js"></script>
+
+        <script type="text/javascript" src="js/jscript.js"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
