@@ -194,7 +194,7 @@ li {
 }
 
 .intro{
-    padding: 200px 100px;
+    padding: 200px 10px;
     border-bottom: 1px solid #eff0f6;
 }
 
@@ -719,5 +719,19 @@ position: absolute;
 }
 
 .new_user a{
-	
+
 }
+
+@media(max-width: 450px){
+.intro-text h1{
+	font-size: 45px;
+}
+.intro{
+	padding: 50px 0;
+}
+
+.features h2{
+	font-size: 20px;
+}
+}
+
